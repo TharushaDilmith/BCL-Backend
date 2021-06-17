@@ -32,7 +32,7 @@ mongoose.connect(MONGODB_URI, {
     }
   };
 
-//set route
+//set the route
 app.use("/book", BookAPI());
 app.use("/author",AuthorAPI());
 
